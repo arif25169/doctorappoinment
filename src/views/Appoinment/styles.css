@@ -11,7 +11,6 @@ span.doctorName {
 
 .calendarDiv {
     overflow-y: auto;
-    height: 600px;
 }
 /* width */
 ::-webkit-scrollbar {

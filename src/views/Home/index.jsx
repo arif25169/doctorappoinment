@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet';
 import { useStoreActions, useStoreState } from 'easy-peasy';
 import { List, Button } from 'antd';
+import { RightOutlined } from '@ant-design/icons';
 // import PropTypes from 'prop-types'
 
 import './styles.css'
@@ -59,9 +60,11 @@ const Home = () => {
           >
             <span className="doctorName">{item.name}</span> <br />
             <span>{item.org}</span> <br /> <br />
-            Visiting Duration: {item.visitDurationInMin} <br /> <br />
+            Visiting Duration: {item.visitDurationInMin} <br /> <br /> <br />
+            <div style={{marginBottom:"10px"}}></div>
             <Link to="/appoinment">
               <Button
+                icon={<RightOutlined />}
                 type="primary"
                 onClick={() => { submitAppoinment(item) }}
               >
