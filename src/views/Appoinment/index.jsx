@@ -204,6 +204,7 @@ const Appoinment = () => {
           }}
           slotDuration='00:15:00'
           slotLabelInterval='00:05:00'
+          selectLongPressDelay='25'
           minTime="06:00:00"
           maxTime="24:00:00"
           contentHeight="auto"
