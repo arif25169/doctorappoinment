@@ -307,7 +307,7 @@ const Appoinment = () => {
         </Form>
       </Modal>
       <Modal
-        title="Basic Modal"
+        title="Delete Appoinment"
         visible={showdeleteDialog}
         okText="Yes"
         cancelText="No"
